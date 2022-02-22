@@ -179,3 +179,13 @@ ul li {
         background-color: blue;
         cursor: pointer;
     }
+    .ico-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ico-footer img{
+        height: 10vh;
+        border-bottom: 1px solid black;
+    }
