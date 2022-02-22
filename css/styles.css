@@ -1,0 +1,43 @@
+body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    align-items: center;
+    background-color: #002;
+    display: flex;
+    justify-content: flex-start;
+    align-items: left;
+}
+
+ul {
+    align-content: center;
+    align-items: stretch;
+    color: #ffe;
+    display: flex;
+    height: 30px;
+    width: 70%;
+    justify-content: space-between;
+
+}
+
+ul li {
+    align-self: center;
+    list-style: none;
+}
+
+.border-rigth {
+    padding-right: 30px;
+    border-right: 1px solid white;
+}
+
+.border-style {
+    padding-left: 30px;
+    border-left: 1px solid white;
+}
+
+.color-blue {
+    color: #41a1ff;
+}
