@@ -1,0 +1,224 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul{
+    height: 25px;
+    color: white;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+ul li{
+    color: white;
+    list-style: none;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.border-left{
+    padding-left: 25px;
+    border-left: 1px solid white;
+}
+
+.border-right{
+    padding-right: 25px;
+    border-right: 1px solid white;
+}
+
+.color-blue{
+    color: #2196f3;
+}
+
+.container-title{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../assets/landing-splash-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-title > h1,
+.container-title > h3{
+    color: white;
+}
+
+.container-title  h1{
+    font-size: 60px;
+}
+
+.container-title  h3{
+    font-size: 25px;
+    margin: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.products-title h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.products-title h3{
+ margin: 0;
+ font-family: sans-serif;
+ color: #999999;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.card img{
+    height: 400px;
+}
+
+.container {
+    position: absolute;
+    bottom: 10px;
+    padding: 6px 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button button{
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+    margin: 80px;
+    height: 80px;
+    width: 300px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-button button:hover{
+    background-color: red;
+    color: white;
+}
+
+.categories-title h2{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.categories-title h3{
+ margin: 0;
+ font-family: sans-serif;
+ color: #999999;
+}
+
+.container-categories{
+    align-self: center;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container-categories button{
+    background-color: transparent;
+    color: #2196f3;
+    border: 2px solid #2196f3;
+    margin: 30px;
+    height: 80px;
+    width: 250px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container-categories button:hover{
+    background-color: #2196f3;
+    color: white;
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 1px 2px lightgray;
+}
+
+.logo img{
+    padding: 30px;
+    height: 100px;
+}
+
+footer {
+    font-family: sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.footer-content-1{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+.footer-content-2{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+}
+
+.footer-content-3{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.footer-title{
+    color: red;
+}
+
+footer span{
+    margin: 10px;
+}
