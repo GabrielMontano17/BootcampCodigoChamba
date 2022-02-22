@@ -1,0 +1,81 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-principal {
+    margin: 0;
+    
+    width: 80%;
+    height: 60px;
+    color: aliceblue;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ul-principal li {
+    margin: 0 5px;
+
+}
+
+.azul {
+    color: #2196F3;
+}
+
+.logo img{
+    max-height: 30px;
+    margin-right: 30px;
+}
+
+.separador-nav {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 20px;
+}
+
+.carro-compras {
+    display: flex;
+    background-color: #FFC107;
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.carro-compras img{
+    max-height: 30px;
+}
+
+.header {
+    background-image: url(../project-files/images/landing-splash-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1 {
+    color: aliceblue;
+    margin: 20px auto;
+}
+
+.header h2 {
+    color: aliceblue;
+    margin: 0px auto;
+}
