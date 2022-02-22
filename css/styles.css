@@ -140,3 +140,42 @@ ul li {
       color: white;
       cursor: pointer;
   }
+
+  .header-categories {
+      margin-bottom: 2vh;
+  }
+  .header-categories h2{
+      font-size: 5vh;
+      margin: 0;
+  }
+
+  .header-categories h3 {
+      color: #999;
+      font-size: 3vh;
+      margin: 0;
+  }
+
+  .categories {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 10vh 20vh;
+  }
+  .categories-button {
+      margin-top: 5vh;
+      margin-right: 5vh;
+  }
+  .categories-button button{
+      padding: 2vh 10vh;
+      background: transparent;
+      border: 2px solid blue;
+      color: blue;
+      border-radius: 5px;
+  }
+
+    .categories-button button:hover{
+        color: white;
+        background-color: blue;
+        cursor: pointer;
+    }
