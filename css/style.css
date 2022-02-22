@@ -64,7 +64,7 @@ ul li {
     margin: 0px;
 }
 .products{
-
+display: flex;
 }
 .container-cards{
     display: flex;
@@ -101,7 +101,7 @@ ul li {
   }
   .container-button button{
       background: transparent;
-      color: red;
+      color: solid red;
     margin: 50px;
     height: 80px;  
     width: 300px;
@@ -118,9 +118,46 @@ ul li {
 
 .products-title h3{
     color: #999;
-    margin: 0px;
-
+    margin-top: 0px;
 }
 .products-title h2{
     font-size: 40;
+    margin-bottom: 0px;
+}
+.categories-title h3{
+    color: #999;
+    margin: 0px;
+
+}
+.categories-title h2{
+    font-size: 40;
+}
+.container-button2 button{
+    background: transparent;
+    color: solid blue;
+  margin: 50px;
+  height: 80px;  
+  width: 300px;
+  font-size: 24px;
+  font-weight:bold;
+  cursor:ponter;
+  border-radius: 4px;
+}
+
+.container-button2 button:hover{
+    background-color: #2196f3;
+    color:white
+}
+.container-button2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2196f3;
+
+}
+.logo
+{
+    display: flex;
+    justify-content: center;
 }
