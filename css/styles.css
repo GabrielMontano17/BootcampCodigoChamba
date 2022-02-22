@@ -75,6 +75,8 @@ ul li {
 
 .product-title {
     font-family: sans-serif;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
 
 .product-title h2 {
