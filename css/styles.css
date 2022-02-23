@@ -47,8 +47,6 @@ ul li {
 .container-title {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
     height: 60vh;
     background-image: url("../assets/landing-splash-bg.png");
     background-repeat: no-repeat;
@@ -57,10 +55,16 @@ ul li {
 }
 
 .container-title h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     font-size: 60px;
 }
 
 .container-title h3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     margin: 0;
 }
 
