@@ -45,7 +45,7 @@ ul li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
     background-image: url(../images/landing-splash-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +75,7 @@ display: flex;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     width: 40%;
-    height: 500px;
+    height: 300px;
     padding: 10px;
   }
   
@@ -85,36 +85,38 @@ display: flex;
   }
   
   /* Add some padding inside the card container */
-  .container {
-      height: 180px;
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      padding: 2px 16px;
-  }
+.container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 150px;
+}
 
-  .container-button{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-  .container-button button{
-      background: transparent;
-      color: solid red;
-    margin: 50px;
-    height: 80px;  
-    width: 300px;
-    font-size: 24px;
-    font-weight:bold;
-    cursor:ponter;
-    border-radius: 4px;
+.container-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
-  .container-button button:hover{
-      background-color: red;
-      color:white
-  }
+.container-button button {
+  background-color: transparent;
+  color: red;
+  margin: 50px;
+  height: 80px;
+  width: 300px;
+  border: 2px solid red;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.container-button button:hover {
+  background-color: red;
+  color: white;
+}
 
 .products-title h3{
     color: #999;
@@ -132,32 +134,64 @@ display: flex;
 .categories-title h2{
     font-size: 40;
 }
-.container-button2 button{
-    background: transparent;
-    color: solid blue;
-  margin: 50px;
-  height: 80px;  
-  width: 300px;
-  font-size: 24px;
-  font-weight:bold;
-  cursor:ponter;
-  border-radius: 4px;
-}
-
-.container-button2 button:hover{
-    background-color: #2196f3;
-    color:white
-}
-.container-button2{
+.container-button2 {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  
+  .container-button2 button {
+    background-color: transparent;
     color: #2196f3;
-
-}
+    margin: 50px;
+    height: 80px;
+    width: 300px;
+    border: 2px solid #2196f3;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  
+  .container-button2 button:hover {
+    background-color: #2196f3;
+    color: white;
+  }
+  
 .logo
 {
     display: flex;
     justify-content: center;
+}
+
+.footer{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+
+.footer h2{
+    color: red;
+    font-family: sans-serif;
+}
+
+.footer p{
+    font-family: sans-serif;
+    font-size: 18;
+    font-weight: bold;
+}
+.facebook{
+    color: black;
+}
+.twitter{
+    color: black;
+}
+.instagram{
+    color: black;
 }
