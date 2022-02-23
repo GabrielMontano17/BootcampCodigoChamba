@@ -7,6 +7,7 @@ body {
 }
 
 nav{
+    color: #ffe;
     align-items: center;
     background-color: #002;
     display: flex;
@@ -17,7 +18,6 @@ nav{
 ul {
     align-content: center;
     align-items: stretch;
-    color: #ffe;
     display: flex;
     height: 30px;
     width: 70%;
