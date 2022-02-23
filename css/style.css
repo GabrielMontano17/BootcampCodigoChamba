@@ -142,3 +142,14 @@ ul li {
       color: white;
       cursor: pointer;
   }
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    height: 10vh;
+    border-bottom: 1px solid black;
+} 
+
