@@ -1,0 +1,146 @@
+body {
+    font-family: Georgia;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    height: 30px;
+    background-color: #222;
+    color: white;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+}
+
+ul li {
+    align-self: center;
+    list-style: none;
+    font-weight: bold;
+}
+
+.border-right {
+    padding-left: 30px;
+    border-left: 2px solid white;
+}
+
+.border-left{
+    padding-left: 30px;
+    border-left: 2px solid white;
+}
+
+.color-blue {
+    color: #2196F3;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-image: url('../assets/landing-splash-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-title > h1, .container-title > h3 {
+    color: white;
+}
+
+.container-title h1 {
+    font-size: 60px;
+}
+
+.container-title h3 {
+    font-size: 25px;
+    margin: 0;
+}
+
+.product-title h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.product-title h3 {
+    margin-top: 0;
+    color: #999;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+    padding: 10px;
+}
+
+.card img {
+    height: 300px;
+}
+  
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+  
+/* Add some padding inside the card container */
+.content-card {
+    height: 230px;
+    padding: 2px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.container {
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 16px;
+}
+
+.container-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-button button {
+    background-color: transparent;
+    color: red;
+    margin: 50px;
+    height: 80px;
+    width: 300px;
+    border: 2px solid red;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.container-button button:hover {
+    background-color: red;
+    color: white;
+}
+
+
+
