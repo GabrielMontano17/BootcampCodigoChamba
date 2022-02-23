@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ul{
+    height: 30px;
+    color: white;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+ul li {
+    align-self: center;
+    list-style: none;
+    font-weight: bold;
+}
+
+.border-left{
+    padding-left: 30px;
+    border-left: 2px solid white;
+}
+
+.border-right{
+    padding-right: 30px;
+    border-right: 2px solid white;
+}
+
+.color-blue{
+    color: #2196f3;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./project-files/images/landing-splash-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+}
+
+.banner h1, h3, h4{
+    color: white;
+    
+}
+
+
+.banner h1{
+    font-size: 60px;
+}
+
+.banner h3{
+    margin-bottom: 0;
+}
+
+.banner h4{
+    margin-top: 0;
+}
