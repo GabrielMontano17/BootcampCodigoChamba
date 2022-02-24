@@ -82,5 +82,5 @@ MetodoPost();
 MetodoPost2(); 
 MetodoPut(); 
 MetodoDelete(); 
-ListaPArticipantes();
-MayoresDeEdad();
+ListaParticipantes();
+MayorEdad();
