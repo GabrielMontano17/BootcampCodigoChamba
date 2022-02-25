@@ -1,0 +1,6 @@
+C:\Users\Lenovo\source\repos\Brive.BootCamp.Database\Brive.BootCamp.Database\bin\Debug\Brive.BootCamp.Database.dacpac
+C:\Users\Lenovo\source\repos\Brive.BootCamp.Database\Brive.BootCamp.Database\bin\Debug\Brive.BootCamp.Database.dll
+C:\Users\Lenovo\source\repos\Brive.BootCamp.Database\Brive.BootCamp.Database\bin\Debug\Brive.BootCamp.Database.pdb
+C:\Users\Lenovo\source\repos\Brive.BootCamp.Database\Brive.BootCamp.Database\obj\Debug\Brive.BootCamp.Database.sqlproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Brive.BootCamp.Database\Brive.BootCamp.Database\obj\Debug\Brive.BootCamp.Database.dll
+C:\Users\Lenovo\source\repos\Brive.BootCamp.Database\Brive.BootCamp.Database\obj\Debug\Brive.BootCamp.Database.pdb

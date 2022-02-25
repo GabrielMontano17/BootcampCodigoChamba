@@ -157,3 +157,9 @@ ul li{
     background-color: #82c9fb;
     color: white;
 }
+
+.container-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

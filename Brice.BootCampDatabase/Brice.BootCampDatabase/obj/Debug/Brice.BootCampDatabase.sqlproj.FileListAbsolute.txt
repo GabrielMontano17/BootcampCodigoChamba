@@ -1,0 +1,10 @@
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\bin\Debug\Brice.BootCampDatabase.dacpac
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\bin\Debug\Brice.BootCampDatabase.dll
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\bin\Debug\Brice.BootCampDatabase.pdb
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\obj\Debug\Brice.BootCampDatabase.sqlproj.AssemblyReference.cache
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\obj\Debug\Model.xml
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\obj\Debug\refactor.xml
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\obj\Debug\postdeploy.sql
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\obj\Debug\predeploy.sql
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\obj\Debug\Brice.BootCampDatabase.dll
+E:\BootCamp\Brice.BootCampDatabase\Brice.BootCampDatabase\obj\Debug\Brice.BootCampDatabase.pdb
