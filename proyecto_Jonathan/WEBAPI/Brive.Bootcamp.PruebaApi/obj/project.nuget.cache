@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Rbt0Mb/71umn3xhjFs8LHsCekG/odxev1nw6+ofo7J6nvV30ZZKVt38W1Xy9oRq1ULj3d5gQEb6UyNSzYLeT5Q==",
+  "success": true,
+  "projectFilePath": "E:\\bootcamp\\WEBAPI\\Brive.Bootcamp.PruebaApi\\Brive.Bootcamp.PruebaApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jonathan Hernandez\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Jonathan Hernandez\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Jonathan Hernandez\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Jonathan Hernandez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Jonathan Hernandez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Jonathan Hernandez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
